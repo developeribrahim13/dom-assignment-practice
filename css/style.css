@@ -1,0 +1,9 @@
+@import "tailwindcss";
+header{
+    padding: 24px 137px 64px 137px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}

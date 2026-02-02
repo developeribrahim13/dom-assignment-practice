@@ -8,17 +8,35 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- css connect -->
+     <link rel="stylesheet" href="css/style.css">
     <!-- tailwind CDN -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- custome tailwind css -->
      <style type="text/tailwindcss">
       @theme {
-        /* --color-clifford: #da373d; */
+        --color-head: #F9F7F3;
+        --color-black1: #111111 ;
+        --color-ass: #11111170;
+        --color-tiya: #B4F461;
         --font-lexend: "Lexend", sans-serif;
       }
     </style>
 </head>
 <body class="font-lexend">
+    <header class="bg-head">
+        <nav>
+            <button class="font-semibold text-xl text-black1 px-8 py-3 bg-tiya rounded-[8px]">Blog</button>
+            <div class="flex items-center gap-4">
+                <img src="./assets/logo.png">
+                <p class="font-semibold text-xl text-black1">Donate Bangladesh</p>
+            </div>
+            <div class="flex items-center gap-4">
+                <img src="./assets/coin.png">
+                <p class="font-medium text-xl text-ass">5500 BDT</p>
+            </div>
+        </nav>
+    </header>
     
 </body>
 </html>
